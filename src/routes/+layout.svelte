@@ -1,6 +1,9 @@
-<script>import "../app.pcss";</script>
+<script>
+    import "../app.pcss";
+    import Navbar from "$lib/components/Navbar.svelte";
+</script>
 
-<body>
-    
-</body>
-<slot></slot>
+<div class="bg-white min-h-screen pt-1">
+    <Navbar />
+    <slot></slot>
+</div>

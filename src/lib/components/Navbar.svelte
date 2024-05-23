@@ -76,12 +76,12 @@
 </div>
 
 <style>
-   @font-face {
-    font-family: 'handycheera';
-    src: url('$lib/fonts/Handycheera.otf') format('truetype');
-  }
+  @font-face {
+   font-family: 'handycheera';
+   src: url('$lib/fonts/Handycheera.otf') format('truetype');
+ }
 
-  .handycheera {
-    font-family: 'handycheera';
-  }
+ .handycheera {
+   font-family: 'handycheera';
+ }
 </style>

@@ -10,16 +10,3 @@
     </div>
 </div>
 
-
-<style>
-    @font-face {
-     font-family: 'handycheera';
-     src: url('$lib/fonts/Handycheera.otf') format('truetype');
-   }
-   .handycheera {
-     font-family: 'handycheera';
-   }
-	.elegant-font {
-    font-family: 'Playfair Display', serif;
-    }
- </style>

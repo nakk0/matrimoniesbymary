@@ -7,3 +7,4 @@
     <Navbar />
     <slot></slot>
 </div>
+

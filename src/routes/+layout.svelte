@@ -3,7 +3,7 @@
     import Navbar from "$lib/components/Navbar.svelte";
 </script>
 
-<div class="bg-white min-h-screen pt-1">
+<div class="min-h-screen">
     <Navbar />
     <slot></slot>
 </div>

@@ -13,7 +13,7 @@
 
 </script>
 
-<div class="bg-base-100">
+<div class="bg-base-100 sticky top-0 w-full z-50">
   <a href="/"><p class="text-6xl hidden lg:flex justify-center handycheera pt-3">Matrimonies by Mary <img src={logo} alt="Matrimonies by Mary" class="max-w-16 ms-5" /></p></a>
   <div class="navbar">
     <div class="navbar-start">

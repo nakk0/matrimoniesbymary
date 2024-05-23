@@ -3,12 +3,12 @@
   import { page } from "$app/stores";
 
   const links = [
-    {href: "/about-me", name: "about me"},
-    {href: "/ceremony-planning", name: "ceremony planning"},
-    {href: "/music-services", name: "music services"},
+    {href: "/about", name: "about me"},
+    {href: "/ceremonyPlanning", name: "ceremony planning"},
+    {href: "/musicServices", name: "music services"},
     {href: "/gallery", name: "gallery"},
-    {href: "/vow-renewal", name: "vow renewal"},
-    {href: "/contact-me", name: "contact me"},
+    {href: "/vowRenewal", name: "vow renewal"},
+    {href: "/contact", name: "contact me"},
   ]
 
 </script>

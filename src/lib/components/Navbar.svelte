@@ -37,7 +37,7 @@
           class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
         >
           {#each links as link}
-            <li><a href="{link.href}" class:active={$page.url.pathname === link.href}>{link.name}</a></li>
+            <li><a href="{link.href}" class:active={$page.url.pathname === link.href}><button>{link.name}</button></a></li>
           {/each}
           <!-- <li>
             <a>Parent</a>

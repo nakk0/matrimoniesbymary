@@ -1,5 +1,13 @@
 <script>
     import sideimage from "$lib/images/IMG_6628.jpeg";
+
+    let paragraphs = [
+        "Hello and Benvenuti! My name is Mary Loscerbo. I’m a Canadian born celebrant and musician with Italian ancestry. I’ve been living in Tuscany for over 30 years.",
+        "My musical life has been wonderfully diverse. I have sung in castles, theatres and cafés with my own band. I have sung solo roles in fully staged operas and in front of 60-piece jazz orchestras. In my spare time, I paddle with the Pink Ladies Dragonboat Team on the Arno River. I love to whip up fried zucchini flowers and can make a killer ossobuco paired with a great Brunello wine. I love having family and friends over to share stories and laugh together.",
+        "Having had a destination wedding in southern Italy, I know how hard it can be to line up all the pieces. With all my experience as a singer and celebrant, I can help you navigate and coordinate your ceremony to make it run as smoothly as possible. When it comes to your special day, I will also bring passion, warmth, and a collaborative spirit. Together we will discuss your vision for your ceremony through video chats and emails. I can help you with your choice of readings, vows, symbolic rituals, and music.",
+        "So, if you're planning to tie the knot amidst the rolling hills of Tuscany and you're in need of a celebrant who can also add special musical touches to your ceremony, then you’ve found her!",
+        "I look forward to making your ceremony an enchanting combination of spoken words and heartfelt performances that reflect your unique love story. 🎶💕"
+    ]
 </script>
 
 <div class="grid min-w-full pb-10">
@@ -9,13 +17,9 @@
         </div>
         <div class="sm:mx-10 place-self-center lg:order-1 order-2">
             <p class="elegant-font text-yellow-500 text-6xl mb-10">About me</p>
-            <p>I'm your go-to celebrant with a Canadian twist and a whole lot of spunk! 🍁</p>
-            <p class="mt-5">As a professional singer, my vocal cords have seen more action than a karaoke bar on a Friday night.</p> 
-            <p>When I'm not belting out tunes, you can find me paddling away with the Dragonboat pink ladies’ team in the famous Arno River of Florence, Italy.</p>
-            <p class="mt-5">But wait, there's more! I'm not just a songbird; I'm also a songwriter and wannabe dancer who dreams of tearing up the dance floor (despite my body occasionally protesting). Cooking up a storm in the kitchen and sipping on fine wines are my other passions, because life is too short for anything less than delicious.</p>
-            <p class="mt-5">Oh, and did I mention I'm a bookworm? Curling up with a good book is my idea of heaven. But when it comes to your special day, I bring nothing but passion, heartfelt performances, and fun.</p>
-            <p class="mt-5">If you're planning to tie the knot amidst the rolling hills of Tuscany and you're in need of a celebrant who can add that extra pizzazz with a side of song, then look no further! </p>
-            <p class="mt-5">Let's make your ceremony a symphony of love and unforgettable moments. 🎶💕</p>
+            {#each paragraphs as p}
+                <p class="mt-5">{p}</p>
+            {/each}
         </div>
     </div>
 </div>

@@ -3,14 +3,13 @@
 
     let paragraphs = [
         "Together, we'll create a personalized ceremony script that reflects your love story...",
-        "i will help you:",
+        "I will help you:",
     ]
     let list =[
-        "Choose readings",
-        "Choreograph & organize the order of the ceremony – entrances, exits, transitions",
-        "Incorporate important symbols, stories and metaphors",
+        "Choose readings, poetry or prose",
+        "Choreograph & organize the order of the ceremony – entrances, transitions and exits",
         "Honour guests/family members not in attendance",
-        "Incorporate symbolic rituals: e.g. handfasting, ring-warming, wooden wine-box time capsule",
+        "Incorporate symbolic rituals: e.g. handfasting, ring-warming, wooden wine-box time capsule and sand unity ceremony",
         "Select songs and incorporate them seamlessly into the ceremony"
     ]
 </script>

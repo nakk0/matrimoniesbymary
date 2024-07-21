@@ -14,11 +14,11 @@
 </script>
 
 <div class="bg-base-100 sticky top-0 w-full z-50">
-  <a href="/"><p class="text-6xl hidden lg:flex justify-center handycheera pt-3">Matrimonies by Mary <img src={logo} alt="Matrimonies by Mary" class="max-w-16 ms-5" /></p></a>
+  <a href="/"><p class="text-6xl hidden md:flex justify-center handycheera pt-3">Matrimonies by Mary <img src={logo} alt="Matrimonies by Mary" class="max-w-16 ms-5" /></p></a>
   <div class="navbar">
     <div class="navbar-start">
       <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-5 w-5"
@@ -48,12 +48,12 @@
           </li> -->
         </ul>
       </div>
-      <a class="btn btn-ghost text-xl flex lg:hidden" href="/"
+      <a class="btn btn-ghost text-xl flex md:hidden" href="/"
         ><img src={logo} alt="Matrimonies by Mary" class="max-w-11" />
-        <p class="lg:hidden handycheera">Matrimonies by Mary</p></a
+        <p class="md:hidden handycheera">Matrimonies by Mary</p></a
       >
     </div>
-    <div class="navbar-center hidden lg:flex">
+    <div class="navbar-center hidden md:flex">
       <ul class="menu menu-horizontal px-1">
         {#each links as link}
             <li><a href="{link.href}" class:active={$page.url.pathname === link.href}>{link.name}</a></li>

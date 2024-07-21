@@ -6,8 +6,8 @@
     {href: "/about", name: "about me"},
     {href: "/ceremonyPlanning", name: "ceremony planning"},
     {href: "/musicServices", name: "music services"},
-    {href: "/gallery", name: "gallery"},
     {href: "/vowRenewal", name: "vow renewal"},
+    {href: "/gallery", name: "gallery"},
     {href: "/contact", name: "contact me"},
   ]
 

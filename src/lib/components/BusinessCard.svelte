@@ -1,9 +1,9 @@
 <script>
-    export let name = "John Doe";
-    export let title = "Software Engineer";
-    export let phone = "+1 (234) 567-8901";
-    export let email = "john.doe@example.com";
-    export let website = "www.johndoe.com";
+    export let name = "Mary Catherine Loscerbo";
+    export let title = "Singer, Celebrant, Singing Celebrant";
+    export let phone = "[do I put your number?]";
+    export let email = "matrimoniesbymary@gmail.com";
+    export let website = "matrimoniesbymary.com";
   </script>
   
   <div class="card w-96 bg-base-100 shadow-xl">

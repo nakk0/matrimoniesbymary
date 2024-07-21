@@ -26,6 +26,7 @@
                 <li><span class="me-2">♥</span>Soul</li>
             </ol>
             <p class="mt-5">Quality sound will be provided through a professional P.A. system and wireless mic.</p>
+            <p class="mt-5">If you'd prefer to be accompanied by only instrumental music, I can provide the right musicians.</p>
         </div>
     </div>
 </div>

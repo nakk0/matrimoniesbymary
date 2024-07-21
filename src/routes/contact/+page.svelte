@@ -3,5 +3,10 @@
 </script>
 
 <div class="flex justify-center items-center w-full">
-    <BusinessCard   />
+    <BusinessCard   
+        name="Mary Catherine Loscerbo"
+        title = "Celebrant and Singer"
+        email = "matrimoniesbymary@gmail.com"
+
+    />
 </div>

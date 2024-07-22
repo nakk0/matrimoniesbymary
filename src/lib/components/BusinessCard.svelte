@@ -16,10 +16,10 @@
     
     <p class="flex">
         <strong class="place-self-center">Social:</strong>
-        <a href="https://www.instagram.com/matrimonies_by_mary?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+        <a href="https://www.instagram.com/matrimonies_by_mary?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
             <img src="{instagram}" alt="" class="max-w-8">
         </a>
-        <a href="https://www.facebook.com/profile.php?id=61556271417127">
+        <a href="https://www.facebook.com/profile.php?id=61556271417127" target="_blank">
             <img src="{facebook}" alt="" class="max-w-8">
         </a>
     </p>

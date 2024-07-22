@@ -18,6 +18,15 @@
             {#each paragraphs as p}
                 <p class="mt-5">{p}</p>
             {/each}
+            <div class="mt-5">
+                <a href="/contact">
+                    <button class="btn">
+                    contact me
+                    </button>
+                </a>
+            </div>
+            
+            
         </div>
     </div>
 </div>

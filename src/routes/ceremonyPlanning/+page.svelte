@@ -29,6 +29,13 @@
                     <li class="ms-3"><span class="me-2">♥</span>{l}</li>
                 </ol>
             {/each}
+            <div class="mt-5">
+                <a href="/contact">
+                    <button class="btn">
+                    contact me
+                    </button>
+                </a>
+            </div>
         </div>
     </div>
 </div>

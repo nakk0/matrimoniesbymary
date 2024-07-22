@@ -1,6 +1,7 @@
 <script>
   import logo from "$lib/images/logo.png";
   import { page } from "$app/stores";
+  import { goto } from '$app/navigation';
 
   const links = [
     {href: "/about", name: "about me"},
@@ -37,7 +38,8 @@
           class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
         >
           {#each links as link}
-            <li><a href="{link.href}" class:active={$page.url.pathname === link.href}>{link.name}</a></li>
+            <!--<li><a href="{link.href}" class:active={$page.url.pathname === link.href}>{link.name}</a></li>-->
+            <li><button on:touchend={() => {goto(link.href)}} class:active={$page.url.pathname === link.href}>{link.name}</button></li>
           {/each}
           <!-- <li>
             <a>Parent</a>

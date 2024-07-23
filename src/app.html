@@ -7,7 +7,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 		%sveltekit.head%
 	</head>
-	<body data-sveltekit-preload-data="hover" data-theme="valentine" class="bg-white">
+	<body data-sveltekit-preload-data="hover" data-theme="valentine" class="bg-white scrollbar-hide">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
@@ -16,4 +16,10 @@
 	.elegant-font {
     font-family: 'Playfair Display', serif;
     }
+	.scrollbar-hide::-webkit-scrollbar {
+	width: 0;  /* Remove scrollbar space */
+	background: transparent;  /* Optional: just make scrollbar invisible */
+	}
  </style>
+
+	

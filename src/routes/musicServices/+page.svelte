@@ -1,7 +1,17 @@
 <script>
     import sideimage from "$lib/images/IMG_7906.jpeg";
     import audio from "$lib/audio/index.js";
+    import { onMount } from 'svelte';
 
+    let isIOSDevice = false;
+
+    onMount(async () => {
+    if (typeof window !== 'undefined') {
+        const { isIOS } = await import('$lib/utils/IsIOS.js');
+        isIOSDevice = isIOS();
+    }
+    });
+    
 </script>
 
 <div class="grid min-w-full pb-10">
@@ -31,7 +41,7 @@
             <p class="mt-5">Here are some preview tracks of me singing:</p>
             {#each audio as a}
                 <div>
-                    <p class="mt-5 text-center"><strong>{a.name}</strong></p>
+                    <p class="mt-5" class:text-center={!isIOSDevice}><strong>{a.name}</strong></p>
                     <audio controls class="min-w-full">
                         <source src="{a.path}" type="audio/mp3">
                         audio player not supported by your browser.

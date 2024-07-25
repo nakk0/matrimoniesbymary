@@ -30,11 +30,13 @@
             <p class="mt-5">If you'd prefer to be accompanied by only instrumental music, I can provide the right musicians.</p>
             <p class="mt-5">Here are some preview tracks of me singing:</p>
             {#each audio as a}
-                <p class="mt-5"><strong>{a.name}</strong></p>
-                <audio controls>
-                    <source src="{a.path}" type="audio/mp3">
-                    audio player not supported by your browser.
-                </audio>
+                <div>
+                    <p class="mt-5 text-center"><strong>{a.name}</strong></p>
+                    <audio controls class="min-w-full">
+                        <source src="{a.path}" type="audio/mp3">
+                        audio player not supported by your browser.
+                    </audio>
+                </div>   
             {/each}
             <div class="mt-5">
                 <a href="/contact">

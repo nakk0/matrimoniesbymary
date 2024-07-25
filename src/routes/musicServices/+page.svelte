@@ -1,5 +1,6 @@
 <script>
     import sideimage from "$lib/images/IMG_7906.jpeg";
+    import audio from "$lib/audio/index.js";
 
 </script>
 
@@ -27,6 +28,13 @@
             </ol>
             <p class="mt-5">Quality sound will be provided through a professional P.A. system and wireless mic.</p>
             <p class="mt-5">If you'd prefer to be accompanied by only instrumental music, I can provide the right musicians.</p>
+            <p class="mt-5">Here are some preview tracks of me singing:</p>
+            {#each audio as a}
+                <audio controls class="mt-2">
+                    <source src="{a.path}" type="audio/mp3">
+                    audio player not supported by your browser.
+                </audio>
+            {/each}
             <div class="mt-5">
                 <a href="/contact">
                     <button class="btn">

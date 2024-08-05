@@ -4,7 +4,7 @@
 
 <div class="flex justify-center items-center w-full">
     <BusinessCard   
-        name="Mary Catherine Loscerbo"
+        name="Mary Loscerbo"
         title = "Celebrant and Singer"
         email = "matrimoniesbymary@gmail.com"
 

@@ -39,7 +39,7 @@
         >
           {#each links as link}
             <!--<li><a href="{link.href}" class:active={$page.url.pathname === link.href}>{link.name}</a></li>-->
-            <li><button on:touchstart={() => {goto(link.href)}} class:active={$page.url.pathname === link.href}>{link.name}</button></li>
+            <li><button on:touchstart={() => {goto(link.href)}} on:click={() => {goto(link.href)}} class:active={$page.url.pathname === link.href}>{link.name}</button></li>
           {/each}
           <!-- <li>
             <a>Parent</a>

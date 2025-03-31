@@ -4,7 +4,6 @@
 const fs = require('fs');
 const path = require('path');
 
-// Update this path to point to audios directory
 const directoryPath = path.join(__dirname, 'src/lib/audio');
 const files = fs.readdirSync(directoryPath);
 

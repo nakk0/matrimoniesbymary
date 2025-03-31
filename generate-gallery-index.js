@@ -4,7 +4,6 @@
 const fs = require('fs');
 const path = require('path');
 
-// Update this path to point to your images directory
 const directoryPath = path.join(__dirname, 'src/lib/images/gallery');
 const files = fs.readdirSync(directoryPath);
 

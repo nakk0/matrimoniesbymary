@@ -4,6 +4,7 @@
     import { onMount } from 'svelte';
     import { isIOS } from "$lib/utils/ios-safari-check.js";
     import { isSafari } from "$lib/utils/ios-safari-check.js";
+    import SEO from "$lib/components/SEO.svelte";
 
     let isIOSDevice = false;
     let isSafariBrowser = false;
@@ -17,13 +18,15 @@
     
 </script>
 
+<SEO title="Music Services" description="I will help you select music that reflects your tastes, style, and mood of the event. Musical interludes during key moments such as seating guests, the processional, recessional, and between poems. Musical styles include Classical, Pop, Jazz and Soul. Quality sound will be provided through a professional P.A. system and mic. If you'd prefer to be accompanied by only instrumental music, I can provide the right musicians. Here are some preview tracks of me singing." />
+
 <div class="grid min-w-full pb-10">
     <div class="grid lg:grid-cols-2 grid-cols-1 max-w-6xl sm:mt-16 sm:m-0 m-5 place-self-center lg:mx-10 gap-10 md:mx-24 sm:mx-16">
         <div class="lg:order-2 order-1">
-            <img src="{sideimage}" alt="Side Image" class="rounded-xl shadow-xl place-self-center">
+            <img src="{sideimage}" alt="Side Image, Mary holding a microphone" class="rounded-xl shadow-xl place-self-center">
         </div>
         <div class="sm:mx-10 place-self-center lg:order-1 order-2">
-            <p class="elegant-font text-yellow-500 text-6xl mb-10">Music Services</p>
+            <h1 class="elegant-font text-yellow-500 text-6xl mb-10">Music Services</h1>
             <p class="mt-5">I will help you select music that reflects your tastes, style, and mood of the event.</p>
             <p class="mt-5">Musical interludes during key moments such as:</p>
             <ol class="ms-3">

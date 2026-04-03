@@ -1,5 +1,6 @@
 <script>
     import sideimage from "$lib/images/IMG_6628.jpeg";
+    import SEO from "$lib/components/SEO.svelte";
 
     let paragraphs = [
         "Hello and Benvenuti! My name is Mary Loscerbo. I’m a Canadian born celebrant and musician with Italian ancestry. I’ve been living in Tuscany for over 30 years.",
@@ -10,13 +11,15 @@
     ]
 </script>
 
+<SEO title="About Mary" description="Learn more about Mary, a Canadian born celebrant and musician with Italian ancestry living in Tuscany for over 30 years. Discover her diverse musical background and passion for creating memorable celebrant ceremonies in Tuscany and northern italy." />
+
 <div class="grid min-w-full pb-10">
     <div class="grid lg:grid-cols-2 grid-cols-1 max-w-6xl sm:mt-16 sm:m-0 m-5 place-self-center lg:mx-10 gap-10 md:mx-24 sm:mx-16">
         <div class="lg:order-2 order-1">
-            <img src="{sideimage}" alt="Side Image" class="rounded-xl shadow-xl place-self-center">
+            <img src="{sideimage}" alt="Side Image, Mary holding a microphone and a vow book" class="rounded-xl shadow-xl place-self-center">
         </div>
         <div class="sm:mx-10 place-self-center lg:order-1 order-2">
-            <p class="elegant-font text-yellow-500 text-6xl mb-10">About me</p>
+            <h1 class="elegant-font text-yellow-500 text-6xl mb-10">About me</h1>
             {#each paragraphs as p}
                 <p class="mt-5">{p}</p>
             {/each}

@@ -3,9 +3,9 @@
     import SEO from "$lib/components/SEO.svelte";
 
     let paragraphs = [
-        "Hello and Benvenuti! My name is Mary Loscerbo. I’m a Canadian born celebrant and musician with Italian ancestry. I’ve been living in Tuscany for over 30 years.",
+        "Hello and Benvenuti! My name is Mary Loscerbo. I'm a mother-tongue English, Canadian born celebrant and musician with Italian ancestry. I've been living in Tuscany for over 30 years.",
         "Having had a destination wedding in southern Italy, I know how hard it can be to line up all the pieces. With all my experience as a celebrant and singer, I can help you navigate and coordinate your ceremony to make it run as smoothly as possible. When it comes to your special day, I will also bring passion, warmth, and a collaborative spirit. Together we will discuss your vision for your ceremony through video chats and emails. I can help you with your choice of readings, vows, symbolic rituals, and music.",
-        "So, if you're planning to tie the knot amidst the rolling hills of Tuscany and you're in need of a celebrant who can also add special musical touches to your ceremony, then you’ve found her!",
+        "So, if you're planning to tie the knot amidst the rolling hills of Tuscany and you're in need of a celebrant who can also add special musical touches to your ceremony, then you've found her!",
         "I look forward to making your ceremony an enchanting combination of spoken words and heartfelt performances that reflect your unique love story. 🎶💕"
     ]
 </script>

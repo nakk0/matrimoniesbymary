@@ -1,47 +1,41 @@
-import A from './A.jpeg';
-import IMG_6628 from './IMG_6628.jpeg';
-import IMG_7044 from './IMG_7044.jpeg';
-import IMG_7057 from './IMG_7057.jpeg';
-import IMG_7123 from './IMG_7123.jpeg';
-import IMG_7906 from './IMG_7906.jpeg';
-import imagenew1 from './imagenew1.png';
-import imagenew2 from './imagenew2.png';
-import imagenew3 from './imagenew3.png';
-import imagenew4 from './imagenew4.png';
-import unnamed1 from './unnamed1.jpg';
-import unnamed2 from './unnamed2.jpg';
-import unnamed3 from './unnamed3.jpg';
-import IMG_3410 from './IMG_3410.jpeg';
-import IMG_3306 from './IMG_3306.jpeg';
-import IMG_2962 from './IMG_2962.jpeg';
-import jj from './jj.jpeg';
-import rd from './rd.jpeg';
-import c6 from './c6.jpeg';
-import IMG_3408 from './IMG_3408.jpeg';
-import IMG_3313 from './IMG_3313.jpeg';
-import IMG_3133 from './IMG_3133.jpeg';
+import img_1 from './1.jpeg';
+import img_1A from './1A.jpeg';
+import img_2 from './2.jpeg';
+import img_3 from './3.png';
+import img_4 from './4.png';
+import img_5 from './5.jpeg';
+import img_6 from './6.jpeg';
+import img_7 from './7.jpeg';
+import img_9 from './9.jpg';
+import img_A from './A.jpeg';
+import img_imagenew3 from './imagenew3.png';
+import img_imagenew4 from './imagenew4.png';
+import img_IMG_2962 from './IMG_2962.jpeg';
+import img_IMG_3133 from './IMG_3133.jpeg';
+import img_IMG_3313 from './IMG_3313.jpeg';
+import img_IMG_3408 from './IMG_3408.jpeg';
+import img_IMG_6628 from './IMG_6628.jpeg';
+import img_IMG_7123 from './IMG_7123.jpeg';
+import img_IMG_7906 from './IMG_7906.jpeg';
 
 export default [
-  { name: 'jj', path: jj },
-  { name: 'IMG_6628', path: IMG_6628 },
-  { name: 'unnamed3', path: unnamed3 },
-  { name: 'IMG_7906', path: IMG_7906 },
-  { name: 'imagenew4', path: imagenew4 },
-  { name: 'IMG_7123', path: IMG_7123 },
-  { name: 'IMG_7044', path: IMG_7044 },
-  { name: 'imagenew1', path: imagenew1 },
-  { name: 'IMG_2962', path: IMG_2962 },
-  { name: 'imagenew2', path: imagenew2 },
-  { name: 'IMG_7057', path: IMG_7057 },
-  { name: 'imagenew3', path: imagenew3 },
-  { name: 'unnamed1', path: unnamed1 },
-  { name: 'IMG_3313', path: IMG_3313 },
-  { name: 'rd', path: rd },
-  { name: 'A', path: A },
-  { name: 'c6', path: c6 },
-  { name: 'IMG_3410', path: IMG_3410 },
-  { name: 'unnamed2', path: unnamed2 },
-  { name: 'IMG_3408', path: IMG_3408 },
-  { name: 'IMG_3133', path: IMG_3133 },
-  { name: 'IMG_3306', path: IMG_3306 }
+  { name: '1', path: img_1 },
+  { name: '1A', path: img_1A },
+  { name: '2', path: img_2 },
+  { name: '3', path: img_3 },
+  { name: '4', path: img_4 },
+  { name: '5', path: img_5 },
+  { name: '6', path: img_6 },
+  { name: '7', path: img_7 },
+  { name: '9', path: img_9 },
+  { name: 'A', path: img_A },
+  { name: 'imagenew3', path: img_imagenew3 },
+  { name: 'imagenew4', path: img_imagenew4 },
+  { name: 'IMG_2962', path: img_IMG_2962 },
+  { name: 'IMG_3133', path: img_IMG_3133 },
+  { name: 'IMG_3313', path: img_IMG_3313 },
+  { name: 'IMG_3408', path: img_IMG_3408 },
+  { name: 'IMG_6628', path: img_IMG_6628 },
+  { name: 'IMG_7123', path: img_IMG_7123 },
+  { name: 'IMG_7906', path: img_IMG_7906 }
 ];

@@ -1,5 +1,5 @@
 <script>
-    import sideimage from "$lib/images/IMG_7906.jpeg";
+    import sideimage from "$lib/images/maryandpiano.png";
     import audio from "$lib/audio/index.js";
     import { onMount } from 'svelte';
     import { isIOS } from "$lib/utils/ios-safari-check.js";
@@ -23,7 +23,7 @@
 <div class="grid min-w-full pb-10">
     <div class="grid lg:grid-cols-2 grid-cols-1 max-w-6xl sm:mt-16 sm:m-0 m-5 place-self-center lg:mx-10 gap-10 md:mx-24 sm:mx-16">
         <div class="lg:order-2 order-1">
-            <img src="{sideimage}" alt="Side Image, Mary holding a microphone" class="rounded-xl shadow-xl place-self-center">
+            <img src="{sideimage}" alt="Side Image, Mary holding a microphone while officiating and singing at a ceremony in Florence." class="rounded-xl shadow-xl place-self-center">
         </div>
         <div class="sm:mx-10 place-self-center lg:order-1 order-2">
             <h1 class="elegant-font text-yellow-500 text-6xl mb-10">Music Services</h1>
